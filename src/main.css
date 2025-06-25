@@ -1,0 +1,55 @@
+/* main.css */
+
+body {
+  margin: 0;
+  font-family: 'Playfair Display', serif; /* Elegant serif font like BloomThis */
+  background-image: url("https://i.pinimg.com/736x/60/ec/67/60ec6791d0622c12c8c8bc06e85d5832.jpg"); 
+  color: #333;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 40px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #eee;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.logo-img {
+  height: 80px; 
+  width: auto;
+  border-radius: 8px; 
+  object-fit: contain;
+}
+
+.logo-text {
+  font-size: 27px;
+  font-weight: bold;
+  margin-left: 20px;
+  font-family: 'Playfair Display', serif;
+  color: #222;
+  text-transform: uppercase;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.nav-list li {
+  cursor: pointer;
+  position: relative;
+  padding: 5px;
+}
+
+.nav-list li:hover {
+  color: #da2c43; /* BloomThis pink-red accent */
+}
